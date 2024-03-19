@@ -8,6 +8,7 @@ body{
     /* background-color:black; */
     background-color:rgb(246,248,249);
     font-family: "Roboto", sans-serif;
+    font-size:16px;
 }
 
 .container{
@@ -37,5 +38,29 @@ body{
 
 /* content */
 .content{
+    margin:50px 0px;
     background-color:white;
+}
+
+/* button */
+.button-container{
+    padding:2% 5%;
+}
+
+.button-container .button{
+    font-family: "Roboto", sans-serif;
+    padding: 0.5rem;
+    border-radius:5px;
+}
+
+.button-container .add-task{
+    background-color:rgb(71,173,241);
+    border: 0px;
+    color: white;
+}
+
+.button-container .add-section{
+    background-color:rgb(255,255,255);
+    border: 1px solid rgb(208,213,217);
+    color: rgb(208,213,217);
 }
